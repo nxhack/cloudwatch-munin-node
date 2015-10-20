@@ -4,7 +4,7 @@ It may be convenient if put the Custom Metrics directly AWS CloudWatch from muni
 
 ## Motivation
 
-Munin is in handy and easy installation. But the monitoring point is increased, load of RRD processing or graph generation process will be a problem, in munin-server. AWS has a service called CloudWatch, it can accumulate and visualization and monitoring of metric data. More recently, the Custom Metrics, it is possible to put your own data to CloudWatch. Therefore, be to put your own data directly to the CloudWatch from each munin-node, you will be able to take over the munin-server.
+Munin is a convenient, and can easy installation. But the monitoring point is increased, load of RRD processing or graph generation process will be a problem, in munin-server. AWS has a service called CloudWatch, it can accumulate and visualization and monitoring of metric data. More recently, the Custom Metrics, it is possible to put your own data to CloudWatch. Therefore, be to put your own data directly to the CloudWatch from each munin-node, you will be able to take over the munin-server.
 
 However CloudWatch can not specify the detailed data type and drawing. Use of this script is the extent such use is in a limiting metric item.
 
@@ -57,7 +57,7 @@ Caution:　CloudWatch will be charged by AWS. Try carefully.
 
 * Put your 'AWS Access Key ID' in AWS_ACCESS_KEY_ID. and put your 'AWS Secret Access Key' in AWS_SECRET_ACCESS_KEY.
 
-Note: Use IAM (relatively) and will be safe.
+Note: Use IAM. will be (relatively) safe.
 
 Sample of CloudWatch Policy.
 <pre>
